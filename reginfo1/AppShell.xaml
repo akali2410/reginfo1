@@ -7,8 +7,12 @@
     Shell.FlyoutBehavior="Flyout">
 
     <ShellContent
-        Title="Home"
+        Title="O nama"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <ShellContent
+        Title="Kalkulator"
+        ContentTemplate="{DataTemplate local:Kalkulator1}"
+        Route="Kalkulator1" />
 
 </Shell>

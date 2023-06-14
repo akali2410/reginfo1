@@ -53,13 +53,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="FlyoutDetailsPage.xaml.cs">
-	    <DependentUpon>FlyoutDetailsPage.xaml</DependentUpon>
+	  <Compile Update="kalkulator1.xaml.cs">
+	    <DependentUpon>Kalkulator1.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Kalkulator2.xaml.cs">
+	    <DependentUpon>Kalkulator2.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Kalkulator3.xaml.cs">
+	    <DependentUpon>Kalkulator3.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="FlyoutDetailsPage.xaml">
+	  <MauiXaml Update="Kalkulator1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Kalkulator2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Kalkulator3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
