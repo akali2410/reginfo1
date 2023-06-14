@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=netstandard" 
+             x:Class="reginfo1.MainPage"
+             Title="O nama">
+    <StackLayout Padding="35">
+        <Label Text="Dobro došli na aplikaciju " FontSize="Large" FontFamily="Roboto.ttf#Roboto" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+        
+        <StackLayout VerticalOptions="Center">
+            <Image Source="reginfo.png" VerticalOptions="Center" WidthRequest="230" HeightRequest="230" Margin="0,50,0,30"/>
+            
+            <Label Margin="0,-70,0,0" TextColor="Black" HorizontalOptions="Center" Text="Upotrebom ove aplikacije imate mogućnost izračunati cijenu registracije Vašeg motornog vozila, kao i izvršiti uvid u sve stanice tehničkog pregleda i osiguravajuće kuće u Vašem gradu" 
+                          FontFamily="Roboto.ttf#Roboto"
+                          FontSize="15" HorizontalTextAlignment="Center" VerticalOptions="Center" />
+        </StackLayout>
+
+        <Label HorizontalOptions="Center" Text="Napominjemo Vas da su cijene informativnog karaktera, te je za preciznu cijenu potrebno kontaktirati jednu od osiguravajućih kuća!" 
+                          FontFamily="Roboto.ttf#Roboto"
+                          FontSize="12" HorizontalTextAlignment="Center" VerticalTextAlignment="End" VerticalOptions="EndAndExpand"/>
+    </StackLayout>
+</ContentPage>
