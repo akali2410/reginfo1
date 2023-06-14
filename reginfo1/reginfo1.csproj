@@ -53,13 +53,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="FlyoutDetailsPage.xaml.cs">
-	    <DependentUpon>FlyoutDetailsPage.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="FlyoutDetailsPage.xaml">
+	  <MauiXaml Update="KalkulatorPocetna.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
