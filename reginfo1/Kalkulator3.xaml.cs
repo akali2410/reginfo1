@@ -572,7 +572,7 @@ namespace reginfo1
                 registracijaPutnickogVozila.Taksa +
                 registracijaPutnickogVozila.ZeleniKarton;
 
-            registracijaPutnickogVozila.UkupnaCijena = ukupnaCijena;
+            registracijaPutnickogVozila.UkupnaCijena = Math.Round(ukupnaCijena, 2);
         }
 
         public void taxi()

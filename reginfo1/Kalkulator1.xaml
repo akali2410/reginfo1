@@ -7,7 +7,7 @@
             <Label Padding="0,10,0,0" Text="Izaberite vrstu motornog vozila" HorizontalOptions="CenterAndExpand" FontSize="Body" FontFamily="Roboto.ttf#Roboto"/>
             <BoxView 
                    HeightRequest="1"
-                   Color="#5561F9"
+                   Color="#ff0444"
                    Margin ="20, 0, 20, 0"/>
 
 
