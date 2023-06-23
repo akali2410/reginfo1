@@ -4,19 +4,17 @@
              xmlns:system="clr-namespace:System;assembly=netstandard" 
              x:Class="reginfo1.MainPage"
              Title="O nama">
-    <StackLayout Padding="35">
-        <Label Text="Dobro došli na aplikaciju " FontSize="Large" FontFamily="Roboto.ttf#Roboto" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
-        
-        <StackLayout VerticalOptions="Center">
-            <Image Source="reginfo.png" VerticalOptions="Center" WidthRequest="230" HeightRequest="230" Margin="0,50,0,30"/>
-            
-            <Label Margin="0,-70,0,0" TextColor="Black" HorizontalOptions="Center" Text="Upotrebom ove aplikacije imate mogućnost izračunati cijenu registracije Vašeg motornog vozila, kao i izvršiti uvid u sve stanice tehničkog pregleda i osiguravajuće kuće u Vašem gradu" 
-                          FontFamily="Roboto.ttf#Roboto"
-                          FontSize="15" HorizontalTextAlignment="Center" VerticalOptions="Center" />
+    <StackLayout BackgroundColor="#ffffff" Padding="30" VerticalOptions="Center">
+        <Label Text="Dobro došli na aplikaciju" FontSize="Large" FontFamily="Arial" HorizontalOptions="Center" VerticalOptions="Center"  />
+
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Image Source="reginfo.png" WidthRequest="230" HeightRequest="300" Margin="0,20" />
+
+            <Label TextColor="Black" HorizontalOptions="Center" Text="Upotrebom ove aplikacije imate mogućnost izračunati cijenu registracije motornih vozila, kao i uvid u stanice osiguravajućih kuća." 
+                   FontFamily="Arial" FontSize="18" HorizontalTextAlignment="Center" Margin="0,25" />
         </StackLayout>
 
         <Label HorizontalOptions="Center" Text="Napominjemo Vas da su cijene informativnog karaktera, te je za preciznu cijenu potrebno kontaktirati jednu od osiguravajućih kuća!" 
-                          FontFamily="Roboto.ttf#Roboto"
-                          FontSize="12" HorizontalTextAlignment="Center" VerticalTextAlignment="End" VerticalOptions="EndAndExpand"/>
+               FontFamily="Arial" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand" Margin="0,30,0,0"/>
     </StackLayout>
 </ContentPage>

@@ -23,9 +23,9 @@
                 <Frame Padding="5" BackgroundColor="Transparent"  >
                     <ImageButton Source="car.png" BackgroundColor="Transparent"  Clicked="ImageButton_Clicked"/>
                 </Frame>
-                <Frame Padding="5" BackgroundColor="Transparent"  Grid.Row="0" Grid.Column="1">
+                <!--<Frame Padding="5" BackgroundColor="Transparent"  Grid.Row="0" Grid.Column="1">
                     <ImageButton Source="moto.png" BackgroundColor="Transparent" Clicked="ImageButton_Clicked_1"/>
-                </Frame>
+                </Frame>-->
 
             </Grid>
         </StackLayout>

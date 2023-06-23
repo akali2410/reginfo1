@@ -6,19 +6,59 @@
     xmlns:local="clr-namespace:reginfo1"
     Shell.FlyoutBehavior="Flyout"
     Shell.BackgroundColor="#FF0444"
-    Shell.FlyoutBackgroundColor="#FF0444"  >
+    Shell.FlyoutBackgroundColor="#FF0444">
+    
+    
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <StackLayout BackgroundColor="#FF0444" Padding="10">
+                <Label Text="MENI" TextColor="White" FontSize="30" FontFamily="Arial"/>
+            </StackLayout>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <Shell.Resources>
+        <Style x:Key="ShellTitleStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+    </Shell.Resources>
 
-
-
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding FlyoutIcon}" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" Margin="15" />
+                <Label Text="{Binding Title}" Style="{StaticResource ShellTitleStyle}" Grid.Column="1" VerticalOptions="Center" FontFamily="Arial" FontSize="10" Margin="10,5" Padding="10" />
+            </Grid>
+            
+            
+        </DataTemplate>
+        
+    </Shell.ItemTemplate>
+    
     <ShellContent
-        Title="O nama" 
+        Title="O NAMA"
         FlyoutIcon="car.png"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent
-        Title="Kalkulator"
+        Title="KALKULATOR"
         FlyoutIcon="car.png"
         ContentTemplate="{DataTemplate local:Kalkulator1}"
         Route="Kalkulator1" />
+    <ShellContent
+        Title="TEHNIČKI PREGLED"
+        FlyoutIcon="car.png"
+        ContentTemplate="{DataTemplate local:Kalkulator1}"
+        Route="Kalkulator1" />
+    <ShellContent
+        Title="OSIGURAVAJUĆE KUĆE"
+        FlyoutIcon="car.png"
+        ContentTemplate="{DataTemplate local:Kalkulator1}"
+        Route="Kalkulator1" />
+        
 
 </Shell>
