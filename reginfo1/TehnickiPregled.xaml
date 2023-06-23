@@ -21,7 +21,7 @@
                     <Image Source="car.png" Aspect="AspectFill" HeightRequest="250" />
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold">/>
+                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold"/>
                         <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
                         <Label Text="Adresa: 123 Main Street" FontSize="16" />
                     </StackLayout>
