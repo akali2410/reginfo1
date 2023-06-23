@@ -53,7 +53,7 @@
         Title="TEHNIČKI PREGLED"
         FlyoutIcon="car.png"
         ContentTemplate="{DataTemplate local:TehnickiPregled}"
-        Route="TehnickiPregled" />
+        Route="Kalkulator1" />
     <ShellContent
         Title="OSIGURAVAJUĆE KUĆE"
         FlyoutIcon="car.png"
