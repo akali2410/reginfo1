@@ -7,36 +7,39 @@
         <StackLayout>
             <Frame BorderColor="Black" Margin="20">
                 <StackLayout>
-                    <Image Source="car.png" Aspect="AspectFill" HeightRequest="200" Margin="10" />
+                    <Image Source="saosig.png" Aspect="AspectFill" HeightRequest="200" Margin="10" />
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv osig" FontSize="16" FontAttributes="Bold"/>
-                        <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
-                        <Label Text="Adresa: 123 Main Street" FontSize="16" />
+                        <Label Text="Sarajevo osiguranje" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Kontakt: 033 569-600" FontSize="16" />
+                        <Label Text="Adresa: Maršala Tita 29,         
+                               Sarajevo 71000" FontSize="16" />
                     </StackLayout>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Black" Margin="20">
                 <StackLayout>
-                    <Image Source="car.png" Aspect="AspectFill" HeightRequest="250" />
+                    <Image Source="grawe.png" Aspect="AspectFill" HeightRequest="200" />
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold"/>
-                        <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
-                        <Label Text="Adresa: 123 Main Street" FontSize="16" />
+                        <Label Text="GRAWE osiguranje" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Kontakt: 033 772-500" FontSize="16" />
+                        <Label Text="Adresa: Trg solidarnosti 2, 
+                               Sarajevo 71000" FontSize="16" />
                     </StackLayout>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Black"  Margin="20">
                 <StackLayout>
-                    <Image Source="car.png" Aspect="AspectFill" HeightRequest="250" />
+                    <Image Source="euroherc.png" Aspect="AspectFill" HeightRequest="200" />
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold"/>
-                        <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
-                        <Label Text="Adresa: 123 Main Street" FontSize="16" />
+                        <Label Text="EUROHERC osiguranje" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Kontakt: 033 755-515" FontSize="16" />
+                        <Label Text="Adresa: Grbavička 46a,       
+                               Sarajevo 71000" FontSize="16" />
                     </StackLayout>
                 </StackLayout>
             </Frame>

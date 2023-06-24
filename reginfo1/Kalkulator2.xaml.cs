@@ -33,15 +33,9 @@ namespace reginfo1
 
 
 
-
-
-
             vrsteGoriva.Add(new Gorivo(1, "Benzin"));
             vrsteGoriva.Add(new Gorivo(2, "Dizel"));
             vrsteGoriva.Add(new Gorivo(3, "Plin"));
-
-
-
 
             snagaMotoraLista.Add(new snagaMotora(1, "Do 22kW"));
             snagaMotoraLista.Add(new snagaMotora(2, "22kW - 33kW"));
@@ -59,15 +53,9 @@ namespace reginfo1
             premijskiRazred.Add(new premija(4, 0.4, "40%"));
             premijskiRazred.Add(new premija(5, 0.5, "50%"));
 
-
             vrstaRegistrovanjaLista.Add(new vrstaRegistrovanja(0, "Prva registracija"));
             vrstaRegistrovanjaLista.Add(new vrstaRegistrovanja(1, "Produženje registracije"));
             vrstaRegistrovanjaLista.Add(new vrstaRegistrovanja(2, "Promjena vlasništva"));
-
-
-
-
-
 
             pickerSnage.ItemsSource = snagaMotoraLista;
             pickerGoriva.ItemsSource = vrsteGoriva;
@@ -99,7 +87,7 @@ namespace reginfo1
                 dodatneOpcije1.potvrdaOVlasnistvu = switchPotvrdaOVlasnistvu.IsToggled;
                 dodatneOpcije1.popustZaInvalide = switchPopustZaInvalide.IsToggled;
                 dodatneOpcije1.taxiVozilo = switchTaxiVozilo.IsToggled;
-                dodatneOpcije1.BrojPutnika = int.Parse(brojPutnika.Text);
+                
                 dodatneOpcije1.izgubljeneTablice = switchIzgubljeneTablice.IsToggled;
                 dodatneOpcije1.Terenac = switchTerenac.IsToggled;
 
@@ -111,7 +99,7 @@ namespace reginfo1
             }
             catch
             {
-                await DisplayAlert("Upozorenje", "Sva polja moraju biti ispunjena!", "OK");
+                await DisplayAlert("Upozorenje", "Sva polja moraju biti ispunjena!", "U REDU");
             }
 
 

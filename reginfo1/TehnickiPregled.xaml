@@ -7,36 +7,37 @@
         <StackLayout>
             <Frame BorderColor="Black" Margin="20">
                 <StackLayout>
-                    <Image Source="car.png" Aspect="AspectFill" HeightRequest="200" Margin="10" />
+                    <Image Source="asa.jpg" Aspect="AspectFill" HeightRequest="200"  Margin="10" />
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold"/>
-                        <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
-                        <Label Text="Adresa: 123 Main Street" FontSize="16" />
+                        <Label Text="ASA Assistance" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Kontakt: 033 223-535" FontSize="16" />
+                        <Label Text="Adresa: Bolnička do br 11,    
+                               Sarajevo 71000" FontSize="16" />
                     </StackLayout>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Black" Margin="20">
                 <StackLayout>
-                    <Image Source="car.png" Aspect="AspectFill" HeightRequest="250" />
+                    <Image Source="autocentar.png" Aspect="AspectFill" HeightRequest="250"/>
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold"/>
-                        <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
-                        <Label Text="Adresa: 123 Main Street" FontSize="16" />
+                        <Label Text="Autocentar BH Sarajevo" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Kontakt: 033 719-241" FontSize="16" />
+                        <Label Text="Adresa: Topal Osman-paše bb, Sarajevo 71120" FontSize="16" />
                     </StackLayout>
                 </StackLayout>
             </Frame>
 
             <Frame BorderColor="Black"  Margin="20">
                 <StackLayout>
-                    <Image Source="car.png" Aspect="AspectFill" HeightRequest="250" />
+                    <Image Source="agram.png" Aspect="AspectFill" HeightRequest="250" />
 
                     <StackLayout Margin="20">
-                        <Label Text="Naziv" FontSize="16" FontAttributes="Bold"/>
-                        <Label Text="Kontakt: +1 123 456 789" FontSize="16" />
-                        <Label Text="Adresa: 123 Main Street" FontSize="16" />
+                        <Label Text="AGRAM" FontSize="16" FontAttributes="Bold"/>
+                        <Label Text="Kontakt: 033 755-403" FontSize="16" />
+                        <Label Text="Adresa: Bulevar Meše Selimovića 20, Sarajevo 71000" FontSize="16" />
                     </StackLayout>
                 </StackLayout>
             </Frame>

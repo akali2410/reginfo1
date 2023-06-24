@@ -10,11 +10,11 @@
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Image Source="reginfo.png" WidthRequest="230" HeightRequest="300" Margin="0,20" />
 
-            <Label TextColor="Black" HorizontalOptions="Center" Text="Upotrebom ove aplikacije imate mogućnost izračunati cijenu registracije motornih vozila, kao i uvid u stanice osiguravajućih kuća." 
+            <Label TextColor="Black" HorizontalOptions="Center" Text="Upotrebom ove aplikacije imate mogućnost izračunati cijenu registracije motornih vozila, kao i uvid u stanice osiguravajućih kuća u Sarajevu." 
                    FontFamily="Arial" FontSize="18" HorizontalTextAlignment="Center" Margin="0,25" />
         </StackLayout>
 
-        <Label HorizontalOptions="Center" Text="Napominjemo Vas da su cijene informativnog karaktera, te je za preciznu cijenu potrebno kontaktirati jednu od osiguravajućih kuća!" 
+            <Label HorizontalOptions="Center" Text="Napominjemo Vas da su cijene informativnog karaktera, te je za preciznu cijenu potrebno kontaktirati jednu od osiguravajućih kuća!" 
                FontFamily="Arial" FontSize="12" HorizontalTextAlignment="Center" VerticalOptions="EndAndExpand" Margin="0,30,0,0"/>
     </StackLayout>
 </ContentPage>

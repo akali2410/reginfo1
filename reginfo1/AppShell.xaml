@@ -41,22 +41,22 @@
     
     <ShellContent
         Title="O NAMA"
-        FlyoutIcon="car.png"
+        FlyoutIcon="onama.png"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent
         Title="KALKULATOR"
-        FlyoutIcon="car.png"
+        FlyoutIcon="kalkulator.png"
         ContentTemplate="{DataTemplate local:Kalkulator1}"
         Route="Kalkulator1" />
     <ShellContent
         Title="TEHNIČKI PREGLED"
-        FlyoutIcon="car.png"
+        FlyoutIcon="tehpregled.png"
         ContentTemplate="{DataTemplate local:TehnickiPregled}"
         Route="TehnickiPregled" />
     <ShellContent
         Title="OSIGURAVAJUĆE KUĆE"
-        FlyoutIcon="car.png"
+        FlyoutIcon="osiguranja.png"
         ContentTemplate="{DataTemplate local:Osiguranja}"
         Route="Osiguranja" />
         
